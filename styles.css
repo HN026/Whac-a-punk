@@ -11,6 +11,7 @@
 body{
    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,247,214,1) 0%, rgba(1,226,221,1) 30%, rgba(3,178,238,1) 56%, rgba(0,164,191,1) 100%);
     color: black;
+    
 }
 
 .heading{
@@ -79,4 +80,56 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Orbitron', sans-serif;
+}
+
+@media screen and  (max-width:992px) {
+
+    .heading{
+        font-size: 5.5rem;
+    }
+    
+}
+
+
+@media screen and  (max-width:992px) {
+
+    .heading{
+        font-size: 4.5rem;
+    }
+    
+}
+
+
+@media screen and  (max-width:710px) {
+
+    .heading{
+        font-size: 4.5rem;
+    }
+
+    .scoremain{
+        font-size: 0.8rem;
+    }
+    .timeleftmain{
+        font-size: 0.8rem;
+    }
+
+    .info{
+        width: 30rem;
+    }
+
+    .square{
+        height: 150px;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+        border: 3px white solid;
+    }
+
+    .grid{
+        height: 480px;
+        width: 480px;
+        
+    }
+
+    
 }
