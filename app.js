@@ -90,7 +90,7 @@ function IncreaseLevel2()
 
 function IncreaseLevel3()
 {
-    if(result>300)
+    if(result>200)
     {
         timerId = setInterval(randomSquares, 100);
         Level++;
