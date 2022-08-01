@@ -64,7 +64,7 @@ function countDown(){
  {
     clearInterval(countDownTimerId);
     clearInterval(timerId);
-    if(result>500)
+    if(result>400)
     {
         alert('GAME OVER! You won, Your score is: ' + result);
     }
