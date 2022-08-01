@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,247,214,1) 0%, rgba(1,226,221,1) 30%, rgba(3,178,238,1) 56%, rgba(0,164,191,1) 100%);
+    color: black;
+}
+
+.heading{
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 7rem;
+    /* border: 2px white solid; */
+    width: 100vw;
+    text-align: center;
+}
+
+.grid{
+    /* border: 2px red solid; */
+    width: 630px;
+    height: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square{
+    margin: 2px;
+    border: 4px white solid;
+    height: 200px;
+    width: 200px;
+}
+
+.mole{
+    background: url(./Images/cp-2140\ \(1\).png);
+}
+
+.container{
+    /* border: 2px white solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    /* border: 2px white solid; */
+    width: 39.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.scoremain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    
+
+}
+
+.timeleftmain{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
