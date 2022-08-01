@@ -92,7 +92,7 @@ function IncreaseLevel3()
 {
     if(result>300)
     {
-        timerId = setInterval(randomSquares, 300);
+        timerId = setInterval(randomSquares, 100);
         Level++;
         level.textContent = Level;
 
